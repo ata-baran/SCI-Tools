@@ -1,7 +1,7 @@
-def int():
+def int_generator():
     print("int")
 
-def float():
+def float_generator():
     print("float")
 
 def array():

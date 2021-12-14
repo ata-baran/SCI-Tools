@@ -20,9 +20,11 @@ def sciencetific_converter():
             userval = int(input(inputtext))
         else:
             if userval == 1:
-                sci.lenght()
+                val = float(input("\nPlease enter the value to be converted: "))
+                sci.lenght(val)
             elif userval == 2:
-                sci.weight()
+                val2 = float(input("\nPlease enter the value to be converted: "))
+                sci.weight_converter(val2)
             elif userval == 3:
                 sci.power()
             elif userval == 4:
