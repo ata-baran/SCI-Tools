@@ -11,7 +11,7 @@ def lenght(val):
     print(msg + output_unit)
 
 
-def weight_converter(val2):
+def weight(val2):
 
     print("\nWeight Types:\nmg  |  g  |  kg  |  ton")
 
@@ -23,23 +23,23 @@ def weight_converter(val2):
     msg = f'\nResult : {result}'
     print(msg + output_unit)
 
-def power_converter():
+def power():
     print("power")
 
-def temp_converter():
+def temp():
     print("temp")
 
-def area_converter():
+def area():
     print("area")
 
-def volume_converter():
+def volume():
     print("volume")
 
-def time_converter():
+def time():
     print("time")
 
-def pressure_converter():
+def pressure():
     print("pressure")
 
-def data_converter():
+def data():
     print("data")

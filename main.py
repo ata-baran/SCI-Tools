@@ -24,7 +24,7 @@ def sciencetific_converter():
                 sci.lenght(val)
             elif userval == 2:
                 val2 = float(input("\nPlease enter the value to be converted: "))
-                sci.weight_converter(val2)
+                sci.weight(val2)
             elif userval == 3:
                 sci.power()
             elif userval == 4:
@@ -93,9 +93,9 @@ def random_generator():
             userval = int(input(inputtext))
         else:
             if userval == 1:
-                rgen.int()
+                rgen.int_generator()
             elif userval == 2:
-                rgen.float()
+                rgen.float_generator()
             elif userval == 3:
                 rgen.array()
             elif userval == 4:
